@@ -1,0 +1,26 @@
+{
+  "name": "libsass-build-sublime",
+  "version": "0.0.1",
+  "description": "Sublime Text build system for SASS using libsass and Node.js",
+  "main": "build.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blitzrk/libsass-build-sublime"
+  },
+  "keywords": [
+    "libsass",
+    "SASS",
+    "sublime",
+    "sublime text",
+    "build system"
+  ],
+  "author": "Ben Krieger <blitzrk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blitzrk/libsass-build-sublime/issues"
+  },
+  "homepage": "https://github.com/blitzrk/libsass-build-sublime",
+  "dependencies": {
+    "node-sass": "^0.9.6"
+  }
+}
