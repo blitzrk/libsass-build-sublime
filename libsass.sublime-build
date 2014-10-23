@@ -1,9 +1,8 @@
 {
     "cmd": [
-    	"node", 
-    	"$packages/libsass-build-sublime/build.js", 
-    	"$file", 
-    	"$packages/libsass-build-sublime/LibSassBuild.sublime-settings"
+        "npm", "install", "$packages/libsass-build-sublime/", "&&",
+    	"node", "$packages/libsass-build-sublime/build.js", 
+    	"$file", "$packages/libsass-build-sublime/LibSassBuild.sublime-settings"
 	],
     "working_dir": "$file_path",
 
