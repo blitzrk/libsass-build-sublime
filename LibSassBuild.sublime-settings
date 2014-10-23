@@ -1,0 +1,12 @@
+{
+	// include paths for libsass to look for libraries like Bourbon and Compass
+	// files can be relative to your home path
+	// e.g. ["project/stylesheets", "project/src/stylesheets"]
+	"includePaths": [],
+	// name of node packages to look for (module must have includePaths property)
+	// e.g. ["node-bourbon", "node-neat"]
+	"includePackages": [],
+	// whether the resulting css file should be compressed or not
+	// not yet implemented
+	"compressed": false
+}

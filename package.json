@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/blitzrk/libsass-build-sublime",
   "dependencies": {
-    "node-sass": "^0.9.6"
+    "node-sass": "^0.9.6",
+    "resolve": "^1.0.0"
   }
 }
