@@ -1,12 +1,12 @@
 {
-    "cmd": [
-        "npm", "install", "$packages/libsass-build-sublime/", "&&",
-    	"node", "$packages/libsass-build-sublime/build.js", 
-    	"$file", "$packages/libsass-build-sublime/LibSassBuild.sublime-settings"
+    "shell": "true",
+    "cmd": [ 
+    	"node", 
+    	"$packages/libsass-build-sublime/build.js", 
+    	"$file", 
+    	"$packages/User/LibSassBuild.sublime-settings" 
 	],
-	"shell": "true",
     "working_dir": "$file_path",
-
     "selector": "source.scss, source.sass",
 	"osx": { "path": "/usr/local/bin:$PATH" }
 }
