@@ -1,5 +1,4 @@
 {
-    "shell": "true",
     "cmd": [ 
     	"node", 
     	"$packages/libsass-build-sublime/build.js", 
