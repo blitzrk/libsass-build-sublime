@@ -51,7 +51,13 @@ function compileToSass(err, data) {
 
 	// setup output and settings
 	var outFile = file.substr(0, file.lastIndexOf(".")) + ".css";
-	var settings = JSON.parse(fs.readFileSync(settingsPath, 'utf8').replace(/\/\/.*|\n|\t/g,"").toString());
+	var settings;
+	try {
+		settings = JSON.parse(fs.readFileSync(settingsPath, 'utf8').replace(/\/\/.*|\n|\t/g,"").toString());
+	} catch(err) {
+		settingsPath = settingsPath.replace(/User/,"libsass-build-sublime");
+		settings = JSON.parse(fs.readFileSync(settingsPath, 'utf8').replace(/\/\/.*|\n|\t/g,"").toString());
+	}
 	var sassPaths = settings.includePaths.map(function(p) { return path.resolve('~', p) });
 
 	// find Node packages to include
