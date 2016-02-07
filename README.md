@@ -1,3 +1,23 @@
+# *****DEPRECATED***** 
+
+Please check out [Libsass Build](https://github.com/blitzrk/sublime_libsass). It has all the features (and they're actually work) plus it has **no external dependencies**!!! It is also listed in Package Control.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 # libsass-build-sublime
 
 Sublime Text build system for SASS using libsass and Node.js
